@@ -35,8 +35,19 @@ export function HomeDashboardScreen() {
 
   const result = calculateOverallScore(domainScores, threshold)
 
+  const mobileLabels: Record<DomainId, string> = {
+    relationships: 'Relationships',
+    health: 'Health',
+    career: 'Career',
+    finances: 'Finances',
+    growth: 'Growth',
+    leisure: 'Leisure',
+    environment: 'Environment',
+    creativity: 'Creativity',
+  }
+
   const chartData = DOMAINS.map((domain) => ({
-    domain: domain.name,
+    domain: mobileLabels[domain.id],
     score: domainScores[domain.id],
   }))
 
@@ -69,9 +80,9 @@ export function HomeDashboardScreen() {
       <Card title="Domain pulse">
         <div className="h-72 w-full">
           <ResponsiveContainer width="100%" height="100%">
-            <RadarChart data={chartData}>
+            <RadarChart data={chartData} margin={{ top: 24, right: 36, bottom: 24, left: 36 }}>
               <PolarGrid />
-              <PolarAngleAxis dataKey="domain" tick={{ fontSize: 11 }} />
+              <PolarAngleAxis dataKey="domain" tick={{ fontSize: 12 }} />
               <Radar dataKey="score" stroke="#0f766e" fill="#99f6e4" fillOpacity={0.5} />
             </RadarChart>
           </ResponsiveContainer>
