@@ -6,7 +6,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-job-work-satisfaction',
     title: 'Job / work satisfaction',
     description: 'Identify one task that would improve your day.',
-    impact: 75,
+    impact: 77,
     category: 'ideal-gap',
   },
   {
@@ -14,7 +14,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-job-work-satisfaction',
     title: 'Job / work satisfaction',
     description: 'Improve your workspace setup.',
-    impact: 75,
+    impact: 74,
     category: 'ideal-gap',
   },
   {
@@ -22,7 +22,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-job-work-satisfaction',
     title: 'Job / work satisfaction',
     description: 'Ask a colleague for feedback.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -30,7 +30,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-job-work-satisfaction',
     title: 'Job / work satisfaction',
     description: 'Block focused work time.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -38,7 +38,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-job-work-satisfaction',
     title: 'Job / work satisfaction',
     description: 'Remove one distraction.',
-    impact: 75,
+    impact: 74,
     category: 'ideal-gap',
   },
   {
@@ -46,7 +46,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-job-work-satisfaction',
     title: 'Job / work satisfaction',
     description: 'Reflect on what you enjoy at work.',
-    impact: 75,
+    impact: 69,
     category: 'ideal-gap',
   },
   {
@@ -54,7 +54,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-job-work-satisfaction',
     title: 'Job / work satisfaction',
     description: 'Write one improvement idea for your role.',
-    impact: 75,
+    impact: 73,
     category: 'ideal-gap',
   },
   {
@@ -62,7 +62,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-job-work-satisfaction',
     title: 'Job / work satisfaction',
     description: 'Have a short conversation with a coworker.',
-    impact: 75,
+    impact: 69,
     category: 'ideal-gap',
   },
   {
@@ -70,7 +70,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-job-work-satisfaction',
     title: 'Job / work satisfaction',
     description: 'Clarify priorities for the week.',
-    impact: 75,
+    impact: 72,
     category: 'ideal-gap',
   },
   {
@@ -78,7 +78,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-job-work-satisfaction',
     title: 'Job / work satisfaction',
     description: 'Celebrate finishing a hard task.',
-    impact: 75,
+    impact: 69,
     category: 'ideal-gap',
   },
   {
@@ -86,7 +86,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-personal-projects',
     title: 'Personal projects',
     description: 'Work 30 minutes on a personal project.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -94,7 +94,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-personal-projects',
     title: 'Personal projects',
     description: 'Write the next step for your project.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -102,7 +102,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-personal-projects',
     title: 'Personal projects',
     description: 'Share your project idea with someone.',
-    impact: 75,
+    impact: 67,
     category: 'ideal-gap',
   },
   {
@@ -110,7 +110,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-personal-projects',
     title: 'Personal projects',
     description: 'Research something related to the project.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -118,7 +118,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-personal-projects',
     title: 'Personal projects',
     description: 'Organize project materials.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -126,7 +126,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-personal-projects',
     title: 'Personal projects',
     description: 'Schedule weekly time for it.',
-    impact: 75,
+    impact: 73,
     category: 'ideal-gap',
   },
   {
@@ -134,7 +134,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-personal-projects',
     title: 'Personal projects',
     description: 'Define a milestone for the week.',
-    impact: 75,
+    impact: 73,
     category: 'ideal-gap',
   },
   {
@@ -142,7 +142,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-personal-projects',
     title: 'Personal projects',
     description: 'Sketch or outline your idea.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -150,7 +150,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-personal-projects',
     title: 'Personal projects',
     description: 'Review progress you\'ve made.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -158,7 +158,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-personal-projects',
     title: 'Personal projects',
     description: 'Work on it for just 15 focused minutes.',
-    impact: 75,
+    impact: 67,
     category: 'ideal-gap',
   },
   {
@@ -166,7 +166,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-sense-of-purpose',
     title: 'Sense of purpose',
     description: 'Write down what matters most to you.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -174,7 +174,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-sense-of-purpose',
     title: 'Sense of purpose',
     description: 'Reflect on how your work helps others.',
-    impact: 75,
+    impact: 71,
     category: 'ideal-gap',
   },
   {
@@ -182,7 +182,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-sense-of-purpose',
     title: 'Sense of purpose',
     description: 'Set a meaningful goal for the month.',
-    impact: 75,
+    impact: 73,
     category: 'ideal-gap',
   },
   {
@@ -190,7 +190,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-sense-of-purpose',
     title: 'Sense of purpose',
     description: 'Write a short mission statement.',
-    impact: 75,
+    impact: 77,
     category: 'ideal-gap',
   },
   {
@@ -198,7 +198,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-sense-of-purpose',
     title: 'Sense of purpose',
     description: 'Think about a problem you\'d like to solve.',
-    impact: 75,
+    impact: 66,
     category: 'ideal-gap',
   },
   {
@@ -206,7 +206,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-sense-of-purpose',
     title: 'Sense of purpose',
     description: 'Help someone with your skills.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -214,7 +214,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-sense-of-purpose',
     title: 'Sense of purpose',
     description: 'Volunteer time or expertise.',
-    impact: 75,
+    impact: 73,
     category: 'ideal-gap',
   },
   {
@@ -222,7 +222,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-sense-of-purpose',
     title: 'Sense of purpose',
     description: 'Reflect on activities that give you energy.',
-    impact: 75,
+    impact: 71,
     category: 'ideal-gap',
   },
   {
@@ -230,7 +230,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-sense-of-purpose',
     title: 'Sense of purpose',
     description: 'List three meaningful things in life.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -238,7 +238,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-sense-of-purpose',
     title: 'Sense of purpose',
     description: 'Work on something aligned with your values.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -246,7 +246,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-skill-development',
     title: 'Skill development',
     description: 'Watch a tutorial on a useful skill.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -254,7 +254,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-skill-development',
     title: 'Skill development',
     description: 'Read an article about a skill.',
-    impact: 75,
+    impact: 66,
     category: 'ideal-gap',
   },
   {
@@ -262,7 +262,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-skill-development',
     title: 'Skill development',
     description: 'Practice a skill for 20 minutes.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -270,7 +270,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-skill-development',
     title: 'Skill development',
     description: 'Ask an expert for advice.',
-    impact: 75,
+    impact: 69,
     category: 'ideal-gap',
   },
   {
@@ -278,7 +278,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-skill-development',
     title: 'Skill development',
     description: 'Create a one‑month learning plan.',
-    impact: 75,
+    impact: 83,
     category: 'ideal-gap',
   },
   {
@@ -286,7 +286,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-skill-development',
     title: 'Skill development',
     description: 'Write notes about something new.',
-    impact: 75,
+    impact: 69,
     category: 'ideal-gap',
   },
   {
@@ -294,7 +294,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-skill-development',
     title: 'Skill development',
     description: 'Apply a new technique.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -302,7 +302,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-skill-development',
     title: 'Skill development',
     description: 'Sign up for a short course.',
-    impact: 75,
+    impact: 77,
     category: 'ideal-gap',
   },
   {
@@ -310,7 +310,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-skill-development',
     title: 'Skill development',
     description: 'Teach someone a skill you know.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -318,7 +318,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'career-skill-development',
     title: 'Skill development',
     description: 'Reflect on which skill would help your career.',
-    impact: 75,
+    impact: 70,
     category: 'ideal-gap',
   },
   {
@@ -326,7 +326,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-art-music-engagement',
     title: 'Art/music engagement',
     description: 'Listen to music intentionally.',
-    impact: 75,
+    impact: 67,
     category: 'ideal-gap',
   },
   {
@@ -334,7 +334,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-art-music-engagement',
     title: 'Art/music engagement',
     description: 'Visit an art gallery.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -342,7 +342,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-art-music-engagement',
     title: 'Art/music engagement',
     description: 'Explore a new music genre.',
-    impact: 75,
+    impact: 62,
     category: 'ideal-gap',
   },
   {
@@ -350,7 +350,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-art-music-engagement',
     title: 'Art/music engagement',
     description: 'Attend a live performance.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -358,7 +358,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-art-music-engagement',
     title: 'Art/music engagement',
     description: 'Watch a creative performance online.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -366,7 +366,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-art-music-engagement',
     title: 'Art/music engagement',
     description: 'Create a playlist.',
-    impact: 75,
+    impact: 62,
     category: 'ideal-gap',
   },
   {
@@ -374,7 +374,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-art-music-engagement',
     title: 'Art/music engagement',
     description: 'Reflect on a piece of art.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -382,7 +382,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-art-music-engagement',
     title: 'Art/music engagement',
     description: 'Read about an artist.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -390,7 +390,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-art-music-engagement',
     title: 'Art/music engagement',
     description: 'Explore creative works online.',
-    impact: 75,
+    impact: 62,
     category: 'ideal-gap',
   },
   {
@@ -398,7 +398,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-art-music-engagement',
     title: 'Art/music engagement',
     description: 'Discuss art with someone.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -406,7 +406,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-creating-writing-making',
     title: 'Creating (writing/making/etc.)',
     description: 'Write a short journal entry.',
-    impact: 75,
+    impact: 67,
     category: 'ideal-gap',
   },
   {
@@ -414,7 +414,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-creating-writing-making',
     title: 'Creating (writing/making/etc.)',
     description: 'Sketch something.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -422,7 +422,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-creating-writing-making',
     title: 'Creating (writing/making/etc.)',
     description: 'Write a short story.',
-    impact: 75,
+    impact: 66,
     category: 'ideal-gap',
   },
   {
@@ -430,7 +430,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-creating-writing-making',
     title: 'Creating (writing/making/etc.)',
     description: 'Craft or build something simple.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -438,7 +438,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-creating-writing-making',
     title: 'Creating (writing/making/etc.)',
     description: 'Start a creative project.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -446,7 +446,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-creating-writing-making',
     title: 'Creating (writing/making/etc.)',
     description: 'Spend 20 minutes creating.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -454,7 +454,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-creating-writing-making',
     title: 'Creating (writing/making/etc.)',
     description: 'Experiment with a creative medium.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -462,7 +462,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-creating-writing-making',
     title: 'Creating (writing/making/etc.)',
     description: 'Create something imperfect for fun.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -470,7 +470,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-creating-writing-making',
     title: 'Creating (writing/making/etc.)',
     description: 'Document ideas in a notebook.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -478,7 +478,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-creating-writing-making',
     title: 'Creating (writing/making/etc.)',
     description: 'Share something you created.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -486,7 +486,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-personal-style-self-expression',
     title: 'Personal style / self-expression',
     description: 'Wear something that feels authentic.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -494,7 +494,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-personal-style-self-expression',
     title: 'Personal style / self-expression',
     description: 'Try a new outfit combination.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -502,7 +502,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-personal-style-self-expression',
     title: 'Personal style / self-expression',
     description: 'Refresh part of your wardrobe.',
-    impact: 75,
+    impact: 62,
     category: 'ideal-gap',
   },
   {
@@ -510,7 +510,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-personal-style-self-expression',
     title: 'Personal style / self-expression',
     description: 'Express personality through style.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -518,7 +518,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-personal-style-self-expression',
     title: 'Personal style / self-expression',
     description: 'Reflect on your style preferences.',
-    impact: 75,
+    impact: 69,
     category: 'ideal-gap',
   },
   {
@@ -526,7 +526,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-personal-style-self-expression',
     title: 'Personal style / self-expression',
     description: 'Experiment with a new look.',
-    impact: 75,
+    impact: 62,
     category: 'ideal-gap',
   },
   {
@@ -534,7 +534,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-personal-style-self-expression',
     title: 'Personal style / self-expression',
     description: 'Choose something bold to wear.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -542,7 +542,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-personal-style-self-expression',
     title: 'Personal style / self-expression',
     description: 'Organize clothing you enjoy.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -550,7 +550,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-personal-style-self-expression',
     title: 'Personal style / self-expression',
     description: 'Take time getting ready intentionally.',
-    impact: 75,
+    impact: 62,
     category: 'ideal-gap',
   },
   {
@@ -558,7 +558,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-personal-style-self-expression',
     title: 'Personal style / self-expression',
     description: 'Explore style inspiration.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -566,7 +566,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-sharing-ideas',
     title: 'Sharing ideas',
     description: 'Share a thought with a friend.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -574,7 +574,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-sharing-ideas',
     title: 'Sharing ideas',
     description: 'Write a short post about an idea.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -582,7 +582,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-sharing-ideas',
     title: 'Sharing ideas',
     description: 'Discuss something you\'re excited about.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -590,7 +590,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-sharing-ideas',
     title: 'Sharing ideas',
     description: 'Give thoughtful feedback.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -598,7 +598,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-sharing-ideas',
     title: 'Sharing ideas',
     description: 'Start a conversation about a topic.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -606,7 +606,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-sharing-ideas',
     title: 'Sharing ideas',
     description: 'Write down an idea clearly.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -614,7 +614,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-sharing-ideas',
     title: 'Sharing ideas',
     description: 'Present an idea in a meeting.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -622,7 +622,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-sharing-ideas',
     title: 'Sharing ideas',
     description: 'Share a useful resource.',
-    impact: 75,
+    impact: 69,
     category: 'ideal-gap',
   },
   {
@@ -630,7 +630,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-sharing-ideas',
     title: 'Sharing ideas',
     description: 'Explain a concept you enjoy.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -638,7 +638,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'creativity-sharing-ideas',
     title: 'Sharing ideas',
     description: 'Contribute to a group discussion.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -646,7 +646,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-connection-to-nature',
     title: 'Connection to nature',
     description: 'Take a walk in a park.',
-    impact: 75,
+    impact: 72,
     category: 'ideal-gap',
   },
   {
@@ -654,7 +654,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-connection-to-nature',
     title: 'Connection to nature',
     description: 'Spend 10 minutes outside.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -662,7 +662,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-connection-to-nature',
     title: 'Connection to nature',
     description: 'Visit a nature spot nearby.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -670,7 +670,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-connection-to-nature',
     title: 'Connection to nature',
     description: 'Sit outside quietly.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -678,7 +678,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-connection-to-nature',
     title: 'Connection to nature',
     description: 'Watch sunset or sunrise.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -686,7 +686,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-connection-to-nature',
     title: 'Connection to nature',
     description: 'Add plants to your space.',
-    impact: 75,
+    impact: 72,
     category: 'ideal-gap',
   },
   {
@@ -694,7 +694,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-connection-to-nature',
     title: 'Connection to nature',
     description: 'Listen to nature sounds.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -702,7 +702,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-connection-to-nature',
     title: 'Connection to nature',
     description: 'Go on a short hike.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -710,7 +710,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-connection-to-nature',
     title: 'Connection to nature',
     description: 'Eat a meal outside.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -718,7 +718,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-connection-to-nature',
     title: 'Connection to nature',
     description: 'Observe nature mindfully.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -726,7 +726,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-home-comfort',
     title: 'Home comfort',
     description: 'Declutter one area of your home.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -734,7 +734,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-home-comfort',
     title: 'Home comfort',
     description: 'Add something cozy to your space.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -742,7 +742,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-home-comfort',
     title: 'Home comfort',
     description: 'Clean or organize a room.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -750,7 +750,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-home-comfort',
     title: 'Home comfort',
     description: 'Improve lighting in a room.',
-    impact: 75,
+    impact: 72,
     category: 'ideal-gap',
   },
   {
@@ -758,7 +758,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-home-comfort',
     title: 'Home comfort',
     description: 'Create a relaxing corner.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -766,7 +766,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-home-comfort',
     title: 'Home comfort',
     description: 'Do a quick tidy session.',
-    impact: 75,
+    impact: 66,
     category: 'ideal-gap',
   },
   {
@@ -774,7 +774,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-home-comfort',
     title: 'Home comfort',
     description: 'Open windows for fresh air.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -782,7 +782,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-home-comfort',
     title: 'Home comfort',
     description: 'Add a plant.',
-    impact: 75,
+    impact: 74,
     category: 'ideal-gap',
   },
   {
@@ -790,7 +790,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-home-comfort',
     title: 'Home comfort',
     description: 'Improve seating comfort.',
-    impact: 75,
+    impact: 71,
     category: 'ideal-gap',
   },
   {
@@ -798,7 +798,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-home-comfort',
     title: 'Home comfort',
     description: 'Make your bedroom more inviting.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -806,7 +806,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-organization-clutter',
     title: 'Organization / clutter',
     description: 'Declutter a drawer.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -814,7 +814,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-organization-clutter',
     title: 'Organization / clutter',
     description: 'Sort old documents.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -822,7 +822,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-organization-clutter',
     title: 'Organization / clutter',
     description: 'Organize digital files.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -830,7 +830,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-organization-clutter',
     title: 'Organization / clutter',
     description: 'Create a simple system.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -838,7 +838,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-organization-clutter',
     title: 'Organization / clutter',
     description: 'Throw away unused items.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -846,7 +846,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-organization-clutter',
     title: 'Organization / clutter',
     description: 'Clean your desktop.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -854,7 +854,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-organization-clutter',
     title: 'Organization / clutter',
     description: 'Donate unused things.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -862,7 +862,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-organization-clutter',
     title: 'Organization / clutter',
     description: 'Label storage areas.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -870,7 +870,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-organization-clutter',
     title: 'Organization / clutter',
     description: 'Spend 10 minutes tidying.',
-    impact: 75,
+    impact: 66,
     category: 'ideal-gap',
   },
   {
@@ -878,7 +878,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-organization-clutter',
     title: 'Organization / clutter',
     description: 'Reduce clutter in one room.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -886,7 +886,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-workspace-quality',
     title: 'Workspace quality',
     description: 'Organize your desk.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -894,7 +894,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-workspace-quality',
     title: 'Workspace quality',
     description: 'Remove clutter from workspace.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -902,7 +902,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-workspace-quality',
     title: 'Workspace quality',
     description: 'Improve chair posture setup.',
-    impact: 75,
+    impact: 71,
     category: 'ideal-gap',
   },
   {
@@ -910,7 +910,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-workspace-quality',
     title: 'Workspace quality',
     description: 'Adjust lighting.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -918,7 +918,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-workspace-quality',
     title: 'Workspace quality',
     description: 'Clean the desk surface.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -926,7 +926,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-workspace-quality',
     title: 'Workspace quality',
     description: 'Add something inspiring to your desk.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -934,7 +934,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-workspace-quality',
     title: 'Workspace quality',
     description: 'Adjust monitor height.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -942,7 +942,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-workspace-quality',
     title: 'Workspace quality',
     description: 'Reduce distractions.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -950,7 +950,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-workspace-quality',
     title: 'Workspace quality',
     description: 'Create a focused work zone.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -958,7 +958,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'environment-workspace-quality',
     title: 'Workspace quality',
     description: 'Refresh workspace layout.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -966,7 +966,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-financial-goals-clarity',
     title: 'Financial goals / clarity',
     description: 'Write down top financial goals.',
-    impact: 75,
+    impact: 76,
     category: 'ideal-gap',
   },
   {
@@ -974,7 +974,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-financial-goals-clarity',
     title: 'Financial goals / clarity',
     description: 'Estimate cost of one goal.',
-    impact: 75,
+    impact: 77,
     category: 'ideal-gap',
   },
   {
@@ -982,7 +982,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-financial-goals-clarity',
     title: 'Financial goals / clarity',
     description: 'Create a simple monthly budget.',
-    impact: 75,
+    impact: 85,
     category: 'ideal-gap',
   },
   {
@@ -990,7 +990,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-financial-goals-clarity',
     title: 'Financial goals / clarity',
     description: 'Break a big goal into steps.',
-    impact: 75,
+    impact: 76,
     category: 'ideal-gap',
   },
   {
@@ -998,7 +998,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-financial-goals-clarity',
     title: 'Financial goals / clarity',
     description: 'Review financial progress.',
-    impact: 75,
+    impact: 73,
     category: 'ideal-gap',
   },
   {
@@ -1014,7 +1014,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-financial-goals-clarity',
     title: 'Financial goals / clarity',
     description: 'Schedule monthly finance review.',
-    impact: 75,
+    impact: 82,
     category: 'ideal-gap',
   },
   {
@@ -1022,7 +1022,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-financial-goals-clarity',
     title: 'Financial goals / clarity',
     description: 'Define what financial freedom means to you.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -1030,7 +1030,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-financial-goals-clarity',
     title: 'Financial goals / clarity',
     description: 'List actions to improve finances.',
-    impact: 75,
+    impact: 74,
     category: 'ideal-gap',
   },
   {
@@ -1038,7 +1038,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-financial-goals-clarity',
     title: 'Financial goals / clarity',
     description: 'Discuss money goals with someone.',
-    impact: 75,
+    impact: 76,
     category: 'ideal-gap',
   },
   {
@@ -1046,7 +1046,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-income-stability',
     title: 'Income stability',
     description: 'Review your income sources.',
-    impact: 75,
+    impact: 73,
     category: 'ideal-gap',
   },
   {
@@ -1054,7 +1054,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-income-stability',
     title: 'Income stability',
     description: 'Update your resume.',
-    impact: 75,
+    impact: 69,
     category: 'ideal-gap',
   },
   {
@@ -1062,7 +1062,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-income-stability',
     title: 'Income stability',
     description: 'Research ways to increase income.',
-    impact: 75,
+    impact: 67,
     category: 'ideal-gap',
   },
   {
@@ -1070,7 +1070,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-income-stability',
     title: 'Income stability',
     description: 'Track income this week.',
-    impact: 75,
+    impact: 73,
     category: 'ideal-gap',
   },
   {
@@ -1078,7 +1078,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-income-stability',
     title: 'Income stability',
     description: 'Identify a skill that boosts earnings.',
-    impact: 75,
+    impact: 69,
     category: 'ideal-gap',
   },
   {
@@ -1086,7 +1086,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-income-stability',
     title: 'Income stability',
     description: 'Reach out to a professional contact.',
-    impact: 75,
+    impact: 67,
     category: 'ideal-gap',
   },
   {
@@ -1094,7 +1094,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-income-stability',
     title: 'Income stability',
     description: 'Explore freelance opportunities.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -1102,7 +1102,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-income-stability',
     title: 'Income stability',
     description: 'Reflect on improving financial stability.',
-    impact: 75,
+    impact: 74,
     category: 'ideal-gap',
   },
   {
@@ -1110,7 +1110,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-income-stability',
     title: 'Income stability',
     description: 'Set a yearly financial improvement goal.',
-    impact: 75,
+    impact: 86,
     category: 'ideal-gap',
   },
   {
@@ -1118,7 +1118,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-income-stability',
     title: 'Income stability',
     description: 'Look into career growth options.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -1126,7 +1126,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-savings-investments',
     title: 'Savings & investments',
     description: 'Check your savings balance.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -1134,7 +1134,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-savings-investments',
     title: 'Savings & investments',
     description: 'Set up automatic savings.',
-    impact: 75,
+    impact: 79,
     category: 'ideal-gap',
   },
   {
@@ -1142,7 +1142,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-savings-investments',
     title: 'Savings & investments',
     description: 'Research basic investing.',
-    impact: 75,
+    impact: 67,
     category: 'ideal-gap',
   },
   {
@@ -1150,7 +1150,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-savings-investments',
     title: 'Savings & investments',
     description: 'Increase your savings slightly.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -1158,7 +1158,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-savings-investments',
     title: 'Savings & investments',
     description: 'Review long‑term goals.',
-    impact: 75,
+    impact: 83,
     category: 'ideal-gap',
   },
   {
@@ -1166,7 +1166,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-savings-investments',
     title: 'Savings & investments',
     description: 'Transfer a small amount to savings.',
-    impact: 75,
+    impact: 67,
     category: 'ideal-gap',
   },
   {
@@ -1174,7 +1174,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-savings-investments',
     title: 'Savings & investments',
     description: 'Read about investing basics.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -1182,7 +1182,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-savings-investments',
     title: 'Savings & investments',
     description: 'Track monthly savings progress.',
-    impact: 75,
+    impact: 84,
     category: 'ideal-gap',
   },
   {
@@ -1190,7 +1190,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-savings-investments',
     title: 'Savings & investments',
     description: 'Set a savings milestone.',
-    impact: 75,
+    impact: 76,
     category: 'ideal-gap',
   },
   {
@@ -1198,7 +1198,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-savings-investments',
     title: 'Savings & investments',
     description: 'Review emergency fund status.',
-    impact: 75,
+    impact: 73,
     category: 'ideal-gap',
   },
   {
@@ -1206,7 +1206,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-spending-habits',
     title: 'Spending habits',
     description: 'Review recent transactions.',
-    impact: 75,
+    impact: 72,
     category: 'ideal-gap',
   },
   {
@@ -1214,7 +1214,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-spending-habits',
     title: 'Spending habits',
     description: 'Cancel an unused subscription.',
-    impact: 75,
+    impact: 76,
     category: 'ideal-gap',
   },
   {
@@ -1222,7 +1222,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-spending-habits',
     title: 'Spending habits',
     description: 'Track spending today.',
-    impact: 75,
+    impact: 69,
     category: 'ideal-gap',
   },
   {
@@ -1230,7 +1230,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-spending-habits',
     title: 'Spending habits',
     description: 'Pause before making purchases.',
-    impact: 75,
+    impact: 67,
     category: 'ideal-gap',
   },
   {
@@ -1238,7 +1238,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-spending-habits',
     title: 'Spending habits',
     description: 'Set a weekly spending limit.',
-    impact: 75,
+    impact: 78,
     category: 'ideal-gap',
   },
   {
@@ -1246,7 +1246,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-spending-habits',
     title: 'Spending habits',
     description: 'Reflect on purchases that brought value.',
-    impact: 75,
+    impact: 71,
     category: 'ideal-gap',
   },
   {
@@ -1254,7 +1254,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-spending-habits',
     title: 'Spending habits',
     description: 'Identify one unnecessary expense.',
-    impact: 75,
+    impact: 67,
     category: 'ideal-gap',
   },
   {
@@ -1262,7 +1262,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-spending-habits',
     title: 'Spending habits',
     description: 'Delay a purchase for 24 hours.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -1270,7 +1270,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-spending-habits',
     title: 'Spending habits',
     description: 'Plan a weekly budget.',
-    impact: 75,
+    impact: 85,
     category: 'ideal-gap',
   },
   {
@@ -1278,7 +1278,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'finances-spending-habits',
     title: 'Spending habits',
     description: 'Notice impulse purchases.',
-    impact: 75,
+    impact: 67,
     category: 'ideal-gap',
   },
   {
@@ -1286,7 +1286,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-learning-education',
     title: 'Learning & education',
     description: 'Read 10 pages of a book.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -1294,7 +1294,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-learning-education',
     title: 'Learning & education',
     description: 'Watch an educational video.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -1302,7 +1302,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-learning-education',
     title: 'Learning & education',
     description: 'Take notes on something new.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -1310,7 +1310,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-learning-education',
     title: 'Learning & education',
     description: 'Study a topic for 20 minutes.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -1318,7 +1318,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-learning-education',
     title: 'Learning & education',
     description: 'Explore a new subject online.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -1326,7 +1326,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-learning-education',
     title: 'Learning & education',
     description: 'Write questions you\'re curious about.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -1334,7 +1334,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-learning-education',
     title: 'Learning & education',
     description: 'Listen to an educational podcast.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -1342,7 +1342,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-learning-education',
     title: 'Learning & education',
     description: 'Join an online learning platform.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -1350,7 +1350,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-learning-education',
     title: 'Learning & education',
     description: 'Review something you learned recently.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -1358,7 +1358,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-learning-education',
     title: 'Learning & education',
     description: 'Teach someone what you learned.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -1366,7 +1366,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-resilience-stress-coping',
     title: 'Resilience / stress coping',
     description: 'Take a short break when stressed.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -1374,7 +1374,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-resilience-stress-coping',
     title: 'Resilience / stress coping',
     description: 'Write down what\'s causing stress.',
-    impact: 75,
+    impact: 66,
     category: 'ideal-gap',
   },
   {
@@ -1382,7 +1382,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-resilience-stress-coping',
     title: 'Resilience / stress coping',
     description: 'Break a problem into steps.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -1390,7 +1390,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-resilience-stress-coping',
     title: 'Resilience / stress coping',
     description: 'Talk to someone about a challenge.',
-    impact: 75,
+    impact: 69,
     category: 'ideal-gap',
   },
   {
@@ -1398,7 +1398,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-resilience-stress-coping',
     title: 'Resilience / stress coping',
     description: 'Practice deep breathing.',
-    impact: 75,
+    impact: 74,
     category: 'ideal-gap',
   },
   {
@@ -1406,7 +1406,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-resilience-stress-coping',
     title: 'Resilience / stress coping',
     description: 'Go for a clearing walk.',
-    impact: 75,
+    impact: 72,
     category: 'ideal-gap',
   },
   {
@@ -1414,7 +1414,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-resilience-stress-coping',
     title: 'Resilience / stress coping',
     description: 'Write possible solutions.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -1422,7 +1422,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-resilience-stress-coping',
     title: 'Resilience / stress coping',
     description: 'Remember past challenges you overcame.',
-    impact: 75,
+    impact: 66,
     category: 'ideal-gap',
   },
   {
@@ -1430,7 +1430,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-resilience-stress-coping',
     title: 'Resilience / stress coping',
     description: 'Focus on what you control.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -1438,7 +1438,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-resilience-stress-coping',
     title: 'Resilience / stress coping',
     description: 'Take one small step toward a solution.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -1446,7 +1446,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-self-reflection',
     title: 'Self-reflection',
     description: 'Journal about your day.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -1454,7 +1454,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-self-reflection',
     title: 'Self-reflection',
     description: 'Reflect on what went well.',
-    impact: 75,
+    impact: 70,
     category: 'ideal-gap',
   },
   {
@@ -1462,7 +1462,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-self-reflection',
     title: 'Self-reflection',
     description: 'Write about something to improve.',
-    impact: 75,
+    impact: 71,
     category: 'ideal-gap',
   },
   {
@@ -1470,7 +1470,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-self-reflection',
     title: 'Self-reflection',
     description: 'Review your goals.',
-    impact: 75,
+    impact: 78,
     category: 'ideal-gap',
   },
   {
@@ -1478,7 +1478,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-self-reflection',
     title: 'Self-reflection',
     description: 'Think about a recent decision.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -1486,7 +1486,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-self-reflection',
     title: 'Self-reflection',
     description: 'Ask yourself what you\'re avoiding.',
-    impact: 75,
+    impact: 67,
     category: 'ideal-gap',
   },
   {
@@ -1494,7 +1494,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-self-reflection',
     title: 'Self-reflection',
     description: 'Reflect on what energizes you.',
-    impact: 75,
+    impact: 69,
     category: 'ideal-gap',
   },
   {
@@ -1502,7 +1502,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-self-reflection',
     title: 'Self-reflection',
     description: 'Write what matters most to you.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -1510,7 +1510,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-self-reflection',
     title: 'Self-reflection',
     description: 'Reflect on a recent challenge.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -1518,7 +1518,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-self-reflection',
     title: 'Self-reflection',
     description: 'Write one lesson from today.',
-    impact: 75,
+    impact: 62,
     category: 'ideal-gap',
   },
   {
@@ -1526,7 +1526,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-trying-new-things',
     title: 'Trying new things',
     description: 'Try a new café or restaurant.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -1534,7 +1534,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-trying-new-things',
     title: 'Trying new things',
     description: 'Cook a new recipe.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -1542,7 +1542,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-trying-new-things',
     title: 'Trying new things',
     description: 'Start a new hobby.',
-    impact: 75,
+    impact: 62,
     category: 'ideal-gap',
   },
   {
@@ -1550,7 +1550,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-trying-new-things',
     title: 'Trying new things',
     description: 'Explore a new part of your city.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -1558,7 +1558,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-trying-new-things',
     title: 'Trying new things',
     description: 'Attend a new event.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -1566,7 +1566,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-trying-new-things',
     title: 'Trying new things',
     description: 'Talk to someone new.',
-    impact: 75,
+    impact: 66,
     category: 'ideal-gap',
   },
   {
@@ -1574,7 +1574,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-trying-new-things',
     title: 'Trying new things',
     description: 'Experiment with a creative activity.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -1582,7 +1582,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-trying-new-things',
     title: 'Trying new things',
     description: 'Watch a documentary about a new topic.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -1590,7 +1590,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-trying-new-things',
     title: 'Trying new things',
     description: 'Change your routine slightly.',
-    impact: 75,
+    impact: 62,
     category: 'ideal-gap',
   },
   {
@@ -1598,7 +1598,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'growth-trying-new-things',
     title: 'Trying new things',
     description: 'Say yes to a small opportunity.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -1606,7 +1606,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-mental-well-being',
     title: 'Mental well-being',
     description: 'Take 10 minutes to meditate.',
-    impact: 75,
+    impact: 78,
     category: 'ideal-gap',
   },
   {
@@ -1614,7 +1614,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-mental-well-being',
     title: 'Mental well-being',
     description: 'Write down three things you\'re grateful for.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -1622,7 +1622,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-mental-well-being',
     title: 'Mental well-being',
     description: 'Step outside for fresh air.',
-    impact: 75,
+    impact: 69,
     category: 'ideal-gap',
   },
   {
@@ -1638,7 +1638,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-mental-well-being',
     title: 'Mental well-being',
     description: 'Write down what\'s stressing you.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -1646,7 +1646,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-mental-well-being',
     title: 'Mental well-being',
     description: 'Talk to someone you trust.',
-    impact: 75,
+    impact: 70,
     category: 'ideal-gap',
   },
   {
@@ -1654,7 +1654,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-mental-well-being',
     title: 'Mental well-being',
     description: 'Take a break from social media.',
-    impact: 75,
+    impact: 67,
     category: 'ideal-gap',
   },
   {
@@ -1662,7 +1662,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-mental-well-being',
     title: 'Mental well-being',
     description: 'Listen to calming music.',
-    impact: 75,
+    impact: 72,
     category: 'ideal-gap',
   },
   {
@@ -1670,7 +1670,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-mental-well-being',
     title: 'Mental well-being',
     description: 'Do something relaxing.',
-    impact: 75,
+    impact: 66,
     category: 'ideal-gap',
   },
   {
@@ -1678,7 +1678,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-mental-well-being',
     title: 'Mental well-being',
     description: 'Reflect on one good thing today.',
-    impact: 75,
+    impact: 70,
     category: 'ideal-gap',
   },
   {
@@ -1686,7 +1686,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-nutrition',
     title: 'Nutrition',
     description: 'Cook one healthy meal today.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -1694,7 +1694,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-nutrition',
     title: 'Nutrition',
     description: 'Add vegetables to your next meal.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -1702,7 +1702,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-nutrition',
     title: 'Nutrition',
     description: 'Drink a glass of water before meals.',
-    impact: 75,
+    impact: 66,
     category: 'ideal-gap',
   },
   {
@@ -1710,7 +1710,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-nutrition',
     title: 'Nutrition',
     description: 'Plan tomorrow\'s meals.',
-    impact: 75,
+    impact: 76,
     category: 'ideal-gap',
   },
   {
@@ -1718,7 +1718,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-nutrition',
     title: 'Nutrition',
     description: 'Replace a sugary snack with fruit.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -1726,7 +1726,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-nutrition',
     title: 'Nutrition',
     description: 'Track what you eat today.',
-    impact: 75,
+    impact: 69,
     category: 'ideal-gap',
   },
   {
@@ -1734,7 +1734,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-nutrition',
     title: 'Nutrition',
     description: 'Prepare a healthy snack.',
-    impact: 75,
+    impact: 67,
     category: 'ideal-gap',
   },
   {
@@ -1742,7 +1742,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-nutrition',
     title: 'Nutrition',
     description: 'Eat one meal without distractions.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -1750,7 +1750,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-nutrition',
     title: 'Nutrition',
     description: 'Try a new healthy recipe.',
-    impact: 75,
+    impact: 66,
     category: 'ideal-gap',
   },
   {
@@ -1758,7 +1758,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-nutrition',
     title: 'Nutrition',
     description: 'Reduce processed food today.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -1774,7 +1774,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-physical-activity',
     title: 'Physical activity',
     description: 'Do a short home workout.',
-    impact: 75,
+    impact: 79,
     category: 'ideal-gap',
   },
   {
@@ -1782,7 +1782,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-physical-activity',
     title: 'Physical activity',
     description: 'Go for a bike ride or jog.',
-    impact: 75,
+    impact: 66,
     category: 'ideal-gap',
   },
   {
@@ -1790,7 +1790,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-physical-activity',
     title: 'Physical activity',
     description: 'Take the stairs today.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -1798,7 +1798,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-physical-activity',
     title: 'Physical activity',
     description: 'Try a new fitness class.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -1806,7 +1806,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-physical-activity',
     title: 'Physical activity',
     description: 'Schedule a workout session.',
-    impact: 75,
+    impact: 84,
     category: 'ideal-gap',
   },
   {
@@ -1814,7 +1814,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-physical-activity',
     title: 'Physical activity',
     description: 'Do 10 minutes of stretching.',
-    impact: 75,
+    impact: 70,
     category: 'ideal-gap',
   },
   {
@@ -1822,7 +1822,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-physical-activity',
     title: 'Physical activity',
     description: 'Walk during a phone call.',
-    impact: 75,
+    impact: 80,
     category: 'ideal-gap',
   },
   {
@@ -1830,7 +1830,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-physical-activity',
     title: 'Physical activity',
     description: 'Set a step goal for today.',
-    impact: 75,
+    impact: 73,
     category: 'ideal-gap',
   },
   {
@@ -1838,7 +1838,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-physical-activity',
     title: 'Physical activity',
     description: 'Do a quick bodyweight workout.',
-    impact: 75,
+    impact: 78,
     category: 'ideal-gap',
   },
   {
@@ -1846,7 +1846,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-sleep-quality',
     title: 'Sleep quality',
     description: 'Go to bed 30 minutes earlier.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -1854,7 +1854,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-sleep-quality',
     title: 'Sleep quality',
     description: 'Stop using screens before bed.',
-    impact: 75,
+    impact: 69,
     category: 'ideal-gap',
   },
   {
@@ -1862,7 +1862,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-sleep-quality',
     title: 'Sleep quality',
     description: 'Create a relaxing bedtime routine.',
-    impact: 75,
+    impact: 67,
     category: 'ideal-gap',
   },
   {
@@ -1870,7 +1870,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-sleep-quality',
     title: 'Sleep quality',
     description: 'Keep a consistent bedtime tonight.',
-    impact: 75,
+    impact: 66,
     category: 'ideal-gap',
   },
   {
@@ -1878,7 +1878,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-sleep-quality',
     title: 'Sleep quality',
     description: 'Reduce caffeine in the afternoon.',
-    impact: 75,
+    impact: 69,
     category: 'ideal-gap',
   },
   {
@@ -1886,7 +1886,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-sleep-quality',
     title: 'Sleep quality',
     description: 'Make your bedroom darker or quieter.',
-    impact: 75,
+    impact: 67,
     category: 'ideal-gap',
   },
   {
@@ -1894,7 +1894,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-sleep-quality',
     title: 'Sleep quality',
     description: 'Write tomorrow\'s tasks before sleeping.',
-    impact: 75,
+    impact: 80,
     category: 'ideal-gap',
   },
   {
@@ -1902,7 +1902,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-sleep-quality',
     title: 'Sleep quality',
     description: 'Read a book before bed.',
-    impact: 75,
+    impact: 69,
     category: 'ideal-gap',
   },
   {
@@ -1910,7 +1910,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-sleep-quality',
     title: 'Sleep quality',
     description: 'Wake up at the same time tomorrow.',
-    impact: 75,
+    impact: 67,
     category: 'ideal-gap',
   },
   {
@@ -1918,7 +1918,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'health-sleep-quality',
     title: 'Sleep quality',
     description: 'Track your sleep tonight.',
-    impact: 75,
+    impact: 79,
     category: 'ideal-gap',
   },
   {
@@ -1926,7 +1926,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-entertainment',
     title: 'Entertainment',
     description: 'Watch a movie you’ve been meaning to see.',
-    impact: 75,
+    impact: 62,
     category: 'ideal-gap',
   },
   {
@@ -1934,7 +1934,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-entertainment',
     title: 'Entertainment',
     description: 'Listen to new music.',
-    impact: 75,
+    impact: 67,
     category: 'ideal-gap',
   },
   {
@@ -1942,7 +1942,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-entertainment',
     title: 'Entertainment',
     description: 'Read a novel.',
-    impact: 75,
+    impact: 61,
     category: 'ideal-gap',
   },
   {
@@ -1950,7 +1950,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-entertainment',
     title: 'Entertainment',
     description: 'Watch a documentary.',
-    impact: 75,
+    impact: 62,
     category: 'ideal-gap',
   },
   {
@@ -1958,7 +1958,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-entertainment',
     title: 'Entertainment',
     description: 'Play a casual game.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -1966,7 +1966,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-entertainment',
     title: 'Entertainment',
     description: 'Visit a cinema or theatre.',
-    impact: 75,
+    impact: 61,
     category: 'ideal-gap',
   },
   {
@@ -1974,7 +1974,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-entertainment',
     title: 'Entertainment',
     description: 'Explore new podcasts.',
-    impact: 75,
+    impact: 62,
     category: 'ideal-gap',
   },
   {
@@ -1982,7 +1982,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-entertainment',
     title: 'Entertainment',
     description: 'Take a break with entertainment.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -1990,7 +1990,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-entertainment',
     title: 'Entertainment',
     description: 'Rewatch something you love.',
-    impact: 75,
+    impact: 61,
     category: 'ideal-gap',
   },
   {
@@ -1998,7 +1998,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-entertainment',
     title: 'Entertainment',
     description: 'Share something entertaining with a friend.',
-    impact: 75,
+    impact: 66,
     category: 'ideal-gap',
   },
   {
@@ -2006,7 +2006,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-hobbies',
     title: 'Hobbies',
     description: 'Spend 30 minutes on a hobby.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -2014,7 +2014,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-hobbies',
     title: 'Hobbies',
     description: 'Restart a hobby you paused.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -2022,7 +2022,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-hobbies',
     title: 'Hobbies',
     description: 'Try a new hobby activity.',
-    impact: 75,
+    impact: 62,
     category: 'ideal-gap',
   },
   {
@@ -2030,7 +2030,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-hobbies',
     title: 'Hobbies',
     description: 'Join a hobby community.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -2038,7 +2038,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-hobbies',
     title: 'Hobbies',
     description: 'Schedule hobby time this weekend.',
-    impact: 75,
+    impact: 74,
     category: 'ideal-gap',
   },
   {
@@ -2046,7 +2046,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-hobbies',
     title: 'Hobbies',
     description: 'Buy or prepare hobby materials.',
-    impact: 75,
+    impact: 62,
     category: 'ideal-gap',
   },
   {
@@ -2054,7 +2054,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-hobbies',
     title: 'Hobbies',
     description: 'Watch a tutorial for your hobby.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -2062,7 +2062,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-hobbies',
     title: 'Hobbies',
     description: 'Share your hobby with someone.',
-    impact: 75,
+    impact: 68,
     category: 'ideal-gap',
   },
   {
@@ -2070,7 +2070,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-hobbies',
     title: 'Hobbies',
     description: 'Practice improving your hobby skill.',
-    impact: 75,
+    impact: 62,
     category: 'ideal-gap',
   },
   {
@@ -2078,7 +2078,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-hobbies',
     title: 'Hobbies',
     description: 'Create something small.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -2086,7 +2086,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-social-outings',
     title: 'Social outings',
     description: 'Invite someone for coffee.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -2094,7 +2094,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-social-outings',
     title: 'Social outings',
     description: 'Plan a lunch or dinner outing.',
-    impact: 75,
+    impact: 73,
     category: 'ideal-gap',
   },
   {
@@ -2102,7 +2102,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-social-outings',
     title: 'Social outings',
     description: 'Attend a meetup.',
-    impact: 75,
+    impact: 62,
     category: 'ideal-gap',
   },
   {
@@ -2110,7 +2110,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-social-outings',
     title: 'Social outings',
     description: 'Go to a city event.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -2118,7 +2118,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-social-outings',
     title: 'Social outings',
     description: 'Take a walk with a friend.',
-    impact: 75,
+    impact: 72,
     category: 'ideal-gap',
   },
   {
@@ -2126,7 +2126,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-social-outings',
     title: 'Social outings',
     description: 'Visit a café together.',
-    impact: 75,
+    impact: 62,
     category: 'ideal-gap',
   },
   {
@@ -2134,7 +2134,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-social-outings',
     title: 'Social outings',
     description: 'Attend a cultural event.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -2142,7 +2142,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-social-outings',
     title: 'Social outings',
     description: 'Organize a group hangout.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -2150,7 +2150,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-social-outings',
     title: 'Social outings',
     description: 'Explore a new place with someone.',
-    impact: 75,
+    impact: 62,
     category: 'ideal-gap',
   },
   {
@@ -2158,7 +2158,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-social-outings',
     title: 'Social outings',
     description: 'Join a social activity group.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -2166,7 +2166,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-travel-exploration',
     title: 'Travel / exploration',
     description: 'Visit a new place in your city.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -2174,7 +2174,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-travel-exploration',
     title: 'Travel / exploration',
     description: 'Take a day trip nearby.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -2182,7 +2182,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-travel-exploration',
     title: 'Travel / exploration',
     description: 'Research a travel destination.',
-    impact: 75,
+    impact: 62,
     category: 'ideal-gap',
   },
   {
@@ -2190,7 +2190,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-travel-exploration',
     title: 'Travel / exploration',
     description: 'Explore a park or nature area.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -2198,7 +2198,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-travel-exploration',
     title: 'Travel / exploration',
     description: 'Walk a new neighborhood.',
-    impact: 75,
+    impact: 72,
     category: 'ideal-gap',
   },
   {
@@ -2206,7 +2206,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-travel-exploration',
     title: 'Travel / exploration',
     description: 'Try food from another culture.',
-    impact: 75,
+    impact: 62,
     category: 'ideal-gap',
   },
   {
@@ -2214,7 +2214,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-travel-exploration',
     title: 'Travel / exploration',
     description: 'Look up travel experiences.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -2222,7 +2222,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-travel-exploration',
     title: 'Travel / exploration',
     description: 'Plan a weekend getaway.',
-    impact: 75,
+    impact: 73,
     category: 'ideal-gap',
   },
   {
@@ -2230,7 +2230,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-travel-exploration',
     title: 'Travel / exploration',
     description: 'Visit a museum or gallery.',
-    impact: 75,
+    impact: 62,
     category: 'ideal-gap',
   },
   {
@@ -2238,7 +2238,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'leisure-travel-exploration',
     title: 'Travel / exploration',
     description: 'Take photos while exploring.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -2246,7 +2246,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-community-belonging',
     title: 'Community / belonging',
     description: 'Attend a local meetup or community event.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -2254,7 +2254,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-community-belonging',
     title: 'Community / belonging',
     description: 'Join a group around a shared interest.',
-    impact: 75,
+    impact: 69,
     category: 'ideal-gap',
   },
   {
@@ -2262,7 +2262,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-community-belonging',
     title: 'Community / belonging',
     description: 'Volunteer for a local cause.',
-    impact: 75,
+    impact: 71,
     category: 'ideal-gap',
   },
   {
@@ -2270,7 +2270,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-community-belonging',
     title: 'Community / belonging',
     description: 'Participate in a community discussion.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -2278,7 +2278,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-community-belonging',
     title: 'Community / belonging',
     description: 'Introduce yourself to someone new in a group.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -2286,7 +2286,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-community-belonging',
     title: 'Community / belonging',
     description: 'Support a community project.',
-    impact: 75,
+    impact: 63,
     category: 'ideal-gap',
   },
   {
@@ -2294,7 +2294,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-community-belonging',
     title: 'Community / belonging',
     description: 'Help organize a small gathering.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -2302,7 +2302,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-community-belonging',
     title: 'Community / belonging',
     description: 'Reconnect with a group you used to attend.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -2310,7 +2310,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-community-belonging',
     title: 'Community / belonging',
     description: 'Attend a workshop or talk.',
-    impact: 75,
+    impact: 67,
     category: 'ideal-gap',
   },
   {
@@ -2318,7 +2318,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-community-belonging',
     title: 'Community / belonging',
     description: 'Offer help to someone in your community.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -2326,7 +2326,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-family-connection',
     title: 'Family connection',
     description: 'Call a family member you haven\'t spoken to in a while.',
-    impact: 75,
+    impact: 70,
     category: 'ideal-gap',
   },
   {
@@ -2334,7 +2334,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-family-connection',
     title: 'Family connection',
     description: 'Plan a family dinner or meal together.',
-    impact: 75,
+    impact: 76,
     category: 'ideal-gap',
   },
   {
@@ -2342,7 +2342,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-family-connection',
     title: 'Family connection',
     description: 'Send a thoughtful message thanking a family member.',
-    impact: 75,
+    impact: 69,
     category: 'ideal-gap',
   },
   {
@@ -2350,7 +2350,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-family-connection',
     title: 'Family connection',
     description: 'Ask a family member about something important in their life.',
-    impact: 75,
+    impact: 70,
     category: 'ideal-gap',
   },
   {
@@ -2358,7 +2358,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-family-connection',
     title: 'Family connection',
     description: 'Share a photo or memory with a family member.',
-    impact: 75,
+    impact: 71,
     category: 'ideal-gap',
   },
   {
@@ -2366,7 +2366,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-family-connection',
     title: 'Family connection',
     description: 'Offer help with something a family member needs.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -2374,7 +2374,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-family-connection',
     title: 'Family connection',
     description: 'Plan a short walk or coffee with a relative.',
-    impact: 75,
+    impact: 86,
     category: 'ideal-gap',
   },
   {
@@ -2382,7 +2382,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-family-connection',
     title: 'Family connection',
     description: 'Set a weekly reminder to check in with family.',
-    impact: 75,
+    impact: 77,
     category: 'ideal-gap',
   },
   {
@@ -2390,7 +2390,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-family-connection',
     title: 'Family connection',
     description: 'Ask deeper questions during your next conversation.',
-    impact: 75,
+    impact: 69,
     category: 'ideal-gap',
   },
   {
@@ -2398,7 +2398,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-family-connection',
     title: 'Family connection',
     description: 'Resolve a small misunderstanding or tension.',
-    impact: 75,
+    impact: 74,
     category: 'ideal-gap',
   },
   {
@@ -2406,7 +2406,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-friendships',
     title: 'Friendships',
     description: 'Send a quick message to a friend to check in.',
-    impact: 75,
+    impact: 72,
     category: 'ideal-gap',
   },
   {
@@ -2414,7 +2414,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-friendships',
     title: 'Friendships',
     description: 'Invite a friend for coffee or a walk.',
-    impact: 75,
+    impact: 74,
     category: 'ideal-gap',
   },
   {
@@ -2422,7 +2422,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-friendships',
     title: 'Friendships',
     description: 'Reconnect with an old friend.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -2430,7 +2430,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-friendships',
     title: 'Friendships',
     description: 'Plan a monthly meetup with friends.',
-    impact: 75,
+    impact: 84,
     category: 'ideal-gap',
   },
   {
@@ -2438,7 +2438,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-friendships',
     title: 'Friendships',
     description: 'Share something funny or interesting with a friend.',
-    impact: 75,
+    impact: 70,
     category: 'ideal-gap',
   },
   {
@@ -2446,7 +2446,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-friendships',
     title: 'Friendships',
     description: 'Celebrate a friend\'s small win.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -2454,7 +2454,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-friendships',
     title: 'Friendships',
     description: 'Ask a friend for their perspective on something.',
-    impact: 75,
+    impact: 69,
     category: 'ideal-gap',
   },
   {
@@ -2462,7 +2462,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-friendships',
     title: 'Friendships',
     description: 'Introduce two friends who might get along.',
-    impact: 75,
+    impact: 66,
     category: 'ideal-gap',
   },
   {
@@ -2470,7 +2470,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-friendships',
     title: 'Friendships',
     description: 'Attend an event with a friend.',
-    impact: 75,
+    impact: 64,
     category: 'ideal-gap',
   },
   {
@@ -2478,7 +2478,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-friendships',
     title: 'Friendships',
     description: 'Schedule a 30‑minute catch‑up call.',
-    impact: 75,
+    impact: 79,
     category: 'ideal-gap',
   },
   {
@@ -2494,7 +2494,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-romantic-intimacy',
     title: 'Romantic / intimacy',
     description: 'Express appreciation to your partner.',
-    impact: 75,
+    impact: 67,
     category: 'ideal-gap',
   },
   {
@@ -2502,7 +2502,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-romantic-intimacy',
     title: 'Romantic / intimacy',
     description: 'Spend 30 minutes talking without phones.',
-    impact: 75,
+    impact: 69,
     category: 'ideal-gap',
   },
   {
@@ -2510,7 +2510,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-romantic-intimacy',
     title: 'Romantic / intimacy',
     description: 'Do a small act of kindness for your partner.',
-    impact: 75,
+    impact: 66,
     category: 'ideal-gap',
   },
   {
@@ -2518,7 +2518,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-romantic-intimacy',
     title: 'Romantic / intimacy',
     description: 'Ask your partner about something meaningful.',
-    impact: 75,
+    impact: 71,
     category: 'ideal-gap',
   },
   {
@@ -2526,7 +2526,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-romantic-intimacy',
     title: 'Romantic / intimacy',
     description: 'Share something vulnerable.',
-    impact: 75,
+    impact: 69,
     category: 'ideal-gap',
   },
   {
@@ -2534,7 +2534,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-romantic-intimacy',
     title: 'Romantic / intimacy',
     description: 'Take a walk together.',
-    impact: 75,
+    impact: 74,
     category: 'ideal-gap',
   },
   {
@@ -2542,7 +2542,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-romantic-intimacy',
     title: 'Romantic / intimacy',
     description: 'Cook or order dinner together intentionally.',
-    impact: 75,
+    impact: 67,
     category: 'ideal-gap',
   },
   {
@@ -2550,7 +2550,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-romantic-intimacy',
     title: 'Romantic / intimacy',
     description: 'Give a genuine compliment.',
-    impact: 75,
+    impact: 65,
     category: 'ideal-gap',
   },
   {
@@ -2558,7 +2558,7 @@ export const SUGGESTION_POOL: Suggestion[] = [
     factorId: 'relationships-romantic-intimacy',
     title: 'Romantic / intimacy',
     description: 'Discuss one thing you\'d like to improve together.',
-    impact: 75,
+    impact: 74,
     category: 'ideal-gap',
   },
 ]
