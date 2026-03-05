@@ -35,74 +35,71 @@ export function HomeDashboardScreen() {
 
   const result = calculateOverallScore(domainScores, threshold)
 
-  const mobileLabels: Record<DomainId, string> = {
+  const humanLabels: Record<DomainId, string> = {
     relationships: 'Relationships',
     health: 'Health',
-    career: 'Career',
-    finances: 'Finances',
-    growth: 'Growth',
+    career: 'Work & Purpose',
+    finances: 'Money & Security',
+    growth: 'Personal Growth',
     leisure: 'Leisure',
-    environment: 'Environment',
+    environment: 'Home & Space',
     creativity: 'Creativity',
   }
 
   const chartData = DOMAINS.map((domain) => ({
-    domain: mobileLabels[domain.id],
+    domain: humanLabels[domain.id],
     score: domainScores[domain.id],
   }))
 
   return (
-    <div className="grid gap-4 md:grid-cols-2">
+    <div className="grid gap-5 md:grid-cols-2">
       <Card title={`Welcome, ${name}`}>
-        <p className="text-sm text-stone-600">Simple dashboard snapshot. Use analytics for deeper trend detail.</p>
-        <div className="mt-4 grid grid-cols-2 gap-3">
-          <div className="rounded-xl bg-stone-100 p-3">
-            <p className="text-xs uppercase text-stone-500">Overall score</p>
-            <p className="text-2xl font-semibold">{result.finalScore.toFixed(2)} / 10</p>
-          </div>
-          <div className="rounded-xl bg-stone-100 p-3">
-            <p className="text-xs uppercase text-stone-500">Pinned suggestions</p>
-            <p className="text-2xl font-semibold">{activePinnedCount}</p>
-          </div>
-        </div>
-        <p className="mt-3 text-xs text-stone-500">{thresholdExplanation(result)}</p>
+        <p className="text-sm text-[#5A5A5A]">A calm space to notice your direction, one day at a time.</p>
 
-        <div className="mt-4 flex gap-2">
-          <Link className="rounded-xl bg-stone-800 px-3 py-2 text-sm text-white" to="/daily-check-in">
-            Daily check-in
+        <div className="mt-5 flex flex-wrap gap-2">
+          <Link className="rounded-2xl bg-[#3F6F68] px-4 py-2.5 text-sm font-medium text-white" to="/daily-check-in">
+            Reflect on today
           </Link>
-          <Link className="rounded-xl bg-stone-700 px-3 py-2 text-sm text-white" to="/weekly-review">
-            Weekly review
+          <Link className="rounded-2xl bg-[#E3ECEA] px-4 py-2.5 text-sm font-medium text-[#355D57]" to="/weekly-review">
+            Weekly reflection
           </Link>
+        </div>
+
+        <div className="mt-5 rounded-2xl bg-[#F4F6F4] p-4">
+          <p className="text-xs uppercase tracking-wide text-[#666]">Life balance snapshot</p>
+          <p className="mt-1 text-lg font-semibold text-[#2C2C2C]">{result.finalScore.toFixed(1)} / 10</p>
+          <p className="mt-2 text-xs text-[#666]">{thresholdExplanation(result)}</p>
         </div>
       </Card>
 
-      <Card title="Domain pulse">
-        <div className="h-72 w-full">
+      <Card title="Life balance map">
+        <div className="h-80 w-full">
           <ResponsiveContainer width="100%" height="100%">
-            <RadarChart data={chartData} margin={{ top: 24, right: 36, bottom: 24, left: 36 }}>
-              <PolarGrid />
-              <PolarAngleAxis dataKey="domain" tick={{ fontSize: 12 }} />
-              <Radar dataKey="score" stroke="#0f766e" fill="#99f6e4" fillOpacity={0.5} />
+            <RadarChart data={chartData} margin={{ top: 34, right: 46, bottom: 34, left: 46 }}>
+              <PolarGrid stroke="#D7DEDB" />
+              <PolarAngleAxis dataKey="domain" tick={{ fontSize: 12, fill: '#4B4B4B' }} />
+              <Radar dataKey="score" stroke="#3F6F68" fill="#7FA7A1" fillOpacity={0.35} />
             </RadarChart>
           </ResponsiveContainer>
         </div>
       </Card>
 
-      <Card title="Next steps">
-        <ul className="grid gap-2 text-sm text-stone-700">
-          <li>1. Log your daily overall score.</li>
-          <li>2. Refresh all factor ratings in weekly review.</li>
-          <li>3. Set ideal targets and generate focused suggestions.</li>
+      <Card title="Next gentle steps">
+        <ul className="grid gap-2 text-sm text-[#4A4A4A]">
+          <li>1. Take one minute to reflect on today.</li>
+          <li>2. Revisit your weekly reflection when ready.</li>
+          <li>3. Choose one focus action for this week.</li>
         </ul>
       </Card>
 
-      <Card title="Onboarding status">
-        <p className="text-sm text-stone-600">Profile + threshold can be changed anytime.</p>
-        <Link className="mt-3 inline-block rounded-xl bg-emerald-100 px-3 py-2 text-sm text-emerald-800" to="/onboarding">
-          Open onboarding
-        </Link>
-      </Card>
+      {activePinnedCount > 0 ? (
+        <Card title="Focus areas">
+          <p className="text-sm text-[#5A5A5A]">You have {activePinnedCount} active focus {activePinnedCount === 1 ? 'area' : 'areas'}.</p>
+          <Link className="mt-3 inline-block rounded-2xl bg-[#3F6F68] px-3 py-2 text-sm text-white" to="/pinned/active">
+            Open focus areas
+          </Link>
+        </Card>
+      ) : null}
     </div>
   )
 }

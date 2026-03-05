@@ -67,9 +67,9 @@ export function SuggestionsScreen() {
 
   return (
     <div className="grid gap-4">
-      <Card title="Suggestions">
+      <Card title="Focus actions">
         <p className="mb-3 text-sm text-stone-600">
-          Max 5 suggestions: up to 3 from ideal-day gaps and up to 2 from foundational needs.
+          A small set of actions tailored to your ideal-day gaps and foundational needs.
         </p>
         <button
           className="mb-4 rounded-xl bg-stone-800 px-3 py-2 text-sm text-white"
@@ -102,7 +102,7 @@ export function SuggestionsScreen() {
         </div>
       </Card>
 
-      <Card title="Pinned suggestions">
+      <Card title="Focus areas">
         <p className="text-sm text-stone-600">Pinned items persist until completed or removed.</p>
         <Link to="/pinned/active" className="mt-3 inline-block rounded-xl bg-stone-700 px-3 py-2 text-sm text-white">
           Open pinned detail

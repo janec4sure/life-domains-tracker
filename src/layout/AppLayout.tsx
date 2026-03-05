@@ -1,26 +1,26 @@
 import { NavLink, Outlet } from 'react-router-dom'
 
 const links = [
-  { to: '/', label: 'Dashboard' },
-  { to: '/daily-check-in', label: 'Daily' },
-  { to: '/weekly-review', label: 'Weekly' },
+  { to: '/', label: 'Home' },
+  { to: '/daily-check-in', label: 'Today' },
+  { to: '/weekly-review', label: 'Weekly reflection' },
   { to: '/ideal-day', label: 'Ideal Day' },
-  { to: '/suggestions', label: 'Suggestions' },
-  { to: '/analytics', label: 'Analytics' },
+  { to: '/suggestions', label: 'Focus actions' },
+  { to: '/analytics', label: 'Insights' },
   { to: '/settings', label: 'Settings' },
 ]
 
 export function AppLayout() {
   return (
-    <div className="min-h-screen bg-stone-100 text-stone-800">
-      <header className="sticky top-0 z-20 border-b border-stone-200 bg-stone-50/95 backdrop-blur">
+    <div className="min-h-screen bg-[#F7F7F5] text-[#2C2C2C]">
+      <header className="sticky top-0 z-20 border-b border-[#E6E8E5] bg-[#F7F7F5]/95 backdrop-blur">
         <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-3">
-          <NavLink to="/" className="text-lg font-semibold tracking-tight text-stone-700">
+          <NavLink to="/" className="text-lg font-semibold tracking-tight text-[#2C2C2C]">
             Life Domains Tracker
           </NavLink>
           <NavLink
             to="/onboarding"
-            className="rounded-full bg-emerald-50 px-3 py-1 text-sm text-emerald-700"
+            className="rounded-full bg-[#E9F1EF] px-3 py-1 text-sm text-[#3F6F68]"
           >
             Onboarding
           </NavLink>
@@ -32,7 +32,7 @@ export function AppLayout() {
               to={link.to}
               className={({ isActive }) =>
                 `whitespace-nowrap rounded-full px-3 py-1 text-sm ${
-                  isActive ? 'bg-stone-800 text-stone-50' : 'bg-stone-200 text-stone-700'
+                  isActive ? 'bg-stone-800 text-stone-50' : 'bg-stone-200 text-[#2C2C2C]'
                 }`
               }
             >

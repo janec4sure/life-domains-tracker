@@ -37,7 +37,7 @@ export function AnalyticsScreen() {
 
   return (
     <div className="grid gap-4">
-      <Card title="Daily overall trend">
+      <Card title="Insights: daily reflection trend">
         <div className="h-72 w-full">
           <ResponsiveContainer width="100%" height="100%">
             <LineChart data={dailyTrend}>
@@ -51,7 +51,7 @@ export function AnalyticsScreen() {
         </div>
       </Card>
 
-      <Card title="Weekly domain trends">
+      <Card title="Insights: weekly life trends">
         <div className="h-80 w-full">
           <ResponsiveContainer width="100%" height="100%">
             <LineChart data={weeklyTrend}>
