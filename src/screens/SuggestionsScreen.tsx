@@ -7,6 +7,19 @@ import { defaultDomainScores, defaultFactorRatings } from '../lib/defaults'
 import { selectSuggestions } from '../lib/suggestions'
 import { DomainId, PinnedSuggestion, Suggestion, WeeklyReview } from '../types'
 
+function getImpactBand(impact: number): 'High' | 'Medium' | 'Low' {
+  if (impact >= 85) return 'High'
+  if (impact >= 70) return 'Medium'
+  return 'Low'
+}
+
+function impactBandClass(impact: number) {
+  const band = getImpactBand(impact)
+  if (band === 'High') return 'bg-emerald-100 text-emerald-800'
+  if (band === 'Medium') return 'bg-amber-100 text-amber-800'
+  return 'bg-slate-100 text-slate-700'
+}
+
 export function SuggestionsScreen() {
   const [review, setReview] = useState<WeeklyReview | null>(null)
   const [idealTargets, setIdealTargets] = useState<Record<string, number>>(defaultFactorRatings(7))
@@ -89,9 +102,15 @@ export function SuggestionsScreen() {
               <article key={`pinned-${suggestion.id}`} className="rounded-xl border border-teal-200 bg-teal-50/40 p-3">
                 <div className="mb-2 flex items-start justify-between gap-3">
                   <h3 className="text-sm font-medium">{suggestion.title}</h3>
-                  <span className="rounded-full bg-teal-100 px-2 py-1 text-xs">Pinned</span>
+                  <div className="flex items-center gap-2">
+                    <span className="rounded-full bg-teal-100 px-2 py-1 text-xs">Pinned</span>
+                    <span className={`rounded-full px-2 py-1 text-xs ${impactBandClass(suggestion.impact)}`}>
+                      {getImpactBand(suggestion.impact)} impact
+                    </span>
+                  </div>
                 </div>
                 <p className="text-sm text-stone-600">{suggestion.description}</p>
+                <p className="mt-1 text-xs text-stone-500">Impact score: {suggestion.impact}</p>
                 <Link
                   to="/pinned/active"
                   className="mt-3 inline-block rounded-lg bg-teal-700 px-3 py-1 text-sm text-white"
@@ -111,9 +130,12 @@ export function SuggestionsScreen() {
               <article key={suggestion.id} className="rounded-xl border border-stone-200 p-3">
                 <div className="mb-2 flex items-start justify-between gap-3">
                   <h3 className="text-sm font-medium">{suggestion.title}</h3>
-                  <span className="rounded-full bg-stone-100 px-2 py-1 text-xs">Impact {suggestion.impact}</span>
+                  <span className={`rounded-full px-2 py-1 text-xs ${impactBandClass(suggestion.impact)}`}>
+                    {getImpactBand(suggestion.impact)} impact
+                  </span>
                 </div>
                 <p className="text-sm text-stone-600">{suggestion.description}</p>
+                <p className="mt-1 text-xs text-stone-500">Impact score: {suggestion.impact}</p>
                 <p className="mt-2 text-xs uppercase tracking-wide text-teal-700">{suggestion.category}</p>
                 <button
                   onClick={() => pinSuggestion(suggestion)}
