@@ -1,44 +1,43 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Card } from '../components/ui'
+import { SUGGESTION_POOL } from '../config/suggestions'
 import { db, getSettings } from '../lib/db'
 import { defaultDomainScores, defaultFactorRatings } from '../lib/defaults'
 import { selectSuggestions } from '../lib/suggestions'
-import { DomainId, Suggestion, WeeklyReview } from '../types'
-
-function shuffled<T>(arr: T[], seed: number) {
-  const copy = [...arr]
-  let s = seed
-  for (let i = copy.length - 1; i > 0; i -= 1) {
-    s = (s * 9301 + 49297) % 233280
-    const j = Math.floor((s / 233280) * (i + 1))
-    const temp = copy[i]
-    copy[i] = copy[j]
-    copy[j] = temp
-  }
-  return copy
-}
+import { DomainId, PinnedSuggestion, Suggestion, WeeklyReview } from '../types'
 
 export function SuggestionsScreen() {
   const [review, setReview] = useState<WeeklyReview | null>(null)
   const [idealTargets, setIdealTargets] = useState<Record<string, number>>(defaultFactorRatings(7))
   const [threshold, setThreshold] = useState(4)
   const [regenSeed, setRegenSeed] = useState(7)
-  const [activePinnedIds, setActivePinnedIds] = useState<Set<string>>(new Set())
+  const [activePinned, setActivePinned] = useState<PinnedSuggestion[]>([])
 
   useEffect(() => {
     void (async () => {
       const latestReview = await db.weeklyReviews.orderBy('weekStart').reverse().first()
       const latestIdeal = await db.idealDays.orderBy('createdAt').reverse().first()
       const settings = await getSettings()
-      const activePinned = await db.pinnedSuggestions.where('status').equals('active').toArray()
+      const pinned = await db.pinnedSuggestions.where('status').equals('active').toArray()
+      pinned.sort((a, b) => b.pinnedAt.localeCompare(a.pinnedAt))
 
       setReview(latestReview ?? null)
       setIdealTargets(latestIdeal?.factorTargets ?? defaultFactorRatings(7))
       setThreshold(settings.foundationalThreshold)
-      setActivePinnedIds(new Set(activePinned.map((item) => item.suggestionId)))
+      setActivePinned(pinned)
     })()
   }, [])
+
+  const activePinnedIds = useMemo(() => new Set(activePinned.map((item) => item.suggestionId)), [activePinned])
+
+  const pinnedSuggestions = useMemo(
+    () =>
+      activePinned
+        .map((item) => SUGGESTION_POOL.find((s) => s.id === item.suggestionId))
+        .filter((s): s is Suggestion => Boolean(s)),
+    [activePinned],
+  )
 
   const suggestions = useMemo(() => {
     const factorRatings = review?.factorRatings ?? defaultFactorRatings(5)
@@ -51,9 +50,10 @@ export function SuggestionsScreen() {
       domainScores,
       threshold,
       maxSuggestions: 5,
+      seed: regenSeed,
     }).filter((suggestion) => !activePinnedIds.has(suggestion.id))
 
-    return shuffled(base, regenSeed).slice(0, 5)
+    return base
   }, [activePinnedIds, idealTargets, regenSeed, review, threshold])
 
   async function pinSuggestion(suggestion: Suggestion) {
@@ -62,7 +62,11 @@ export function SuggestionsScreen() {
       pinnedAt: new Date().toISOString(),
       status: 'active',
     })
-    setActivePinnedIds((prev) => new Set(prev).add(suggestion.id))
+
+    setActivePinned((prev) => [
+      { suggestionId: suggestion.id, pinnedAt: new Date().toISOString(), status: 'active' },
+      ...prev,
+    ])
   }
 
   return (
@@ -77,6 +81,27 @@ export function SuggestionsScreen() {
         >
           Regenerate unpinned
         </button>
+
+        {pinnedSuggestions.length > 0 ? (
+          <div className="mb-4 grid gap-3">
+            <p className="text-xs uppercase tracking-wide text-stone-500">Pinned focus areas</p>
+            {pinnedSuggestions.map((suggestion) => (
+              <article key={`pinned-${suggestion.id}`} className="rounded-xl border border-teal-200 bg-teal-50/40 p-3">
+                <div className="mb-2 flex items-start justify-between gap-3">
+                  <h3 className="text-sm font-medium">{suggestion.title}</h3>
+                  <span className="rounded-full bg-teal-100 px-2 py-1 text-xs">Pinned</span>
+                </div>
+                <p className="text-sm text-stone-600">{suggestion.description}</p>
+                <Link
+                  to="/pinned/active"
+                  className="mt-3 inline-block rounded-lg bg-teal-700 px-3 py-1 text-sm text-white"
+                >
+                  Open pinned detail
+                </Link>
+              </article>
+            ))}
+          </div>
+        ) : null}
 
         <div className="grid gap-3">
           {suggestions.length === 0 ? (
@@ -100,13 +125,6 @@ export function SuggestionsScreen() {
             ))
           )}
         </div>
-      </Card>
-
-      <Card title="Focus areas">
-        <p className="text-sm text-stone-600">Pinned items persist until completed or removed.</p>
-        <Link to="/pinned/active" className="mt-3 inline-block rounded-xl bg-stone-700 px-3 py-2 text-sm text-white">
-          Open pinned detail
-        </Link>
       </Card>
     </div>
   )
