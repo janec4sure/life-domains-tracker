@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signal Integrity Review</title>
+    <style>
+      :root { --bg:#f5f7f9; --panel:#fff; --text:#1f2937; --muted:#64748b; --primary:#0f766e; --danger:#ef4444; }
+      *{box-sizing:border-box} body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--text)}
+      .wrap{max-width:900px;margin:0 auto;padding:24px}.card{background:var(--panel);border:1px solid #e2e8f0;border-radius:16px;padding:20px;box-shadow:0 6px 24px rgba(15,23,42,.06)}
+      h1{margin-top:0;font-size:28px}.muted{color:var(--muted)} textarea{width:100%;min-height:220px;border-radius:12px;border:1px solid #cbd5e1;padding:12px;font:inherit;resize:vertical}
+      .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px} button{border:0;border-radius:10px;padding:10px 14px;font-weight:600;cursor:pointer}
+      .btn-primary{background:var(--primary);color:#fff}.btn-secondary{background:#e2e8f0;color:#0f172a}.btn-danger{background:var(--danger);color:#fff}
+      #player{display:none;margin-top:20px}.stage{min-height:260px;display:grid;gap:10px;align-content:start}
+      .badge{display:inline-block;padding:4px 8px;border-radius:999px;font-size:12px;background:#e2e8f0;color:#334155;width:fit-content}
+      .headline{font-size:22px;margin:0}.feedback{font-size:20px;line-height:1.4}.counter{margin-left:auto;color:#334155;font-size:13px}.topbar{display:flex;align-items:center;gap:8px}
+      .glitch{animation:flicker .25s linear infinite}.glitch .feedback{text-shadow:-1px 0 #f00,1px 0 #0ff;letter-spacing:.2px}
+      @keyframes flicker{0%{opacity:.9;transform:translate(0,0)}20%{opacity:1;transform:translate(.5px,-.5px)}40%{opacity:.86;transform:translate(-.5px,.5px)}60%{opacity:1;transform:translate(.5px,0)}80%{opacity:.84;transform:translate(-.5px,-.5px)}100%{opacity:1;transform:translate(0,0)}}
+      .underground{background:#0b1020;color:#d1e7ff;border-color:#1f2a44}.underground .badge{background:#1f2a44;color:#9cc5ff}.underground .muted{color:#8ea5c5}.underground .feedback{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+      .hint{font-size:13px;margin-top:8px;color:#475569}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card">
+        <h1>Signal Integrity Review Builder</h1>
+        <p class="muted">Paste 4-20 feedback lines (one per line). Story mode runs: corporate -> glitch -> raw channel.</p>
+        <textarea id="input" placeholder="Example:\nGreat at execution but alignment comes late.\nStrong owner mindset.\nCan be abrupt in cross-functional discussions."></textarea>
+        <div class="hint">Bullets or numbered lines are fine - input is cleaned automatically.</div>
+        <div class="row">
+          <button class="btn-primary" id="startBtn">Start story mode</button>
+          <button class="btn-secondary" id="sampleBtn">Load sample</button>
+          <button class="btn-danger" id="resetBtn">Reset</button>
+          <span id="error" class="muted"></span>
+        </div>
+      </div>
+      <div id="player" class="card">
+        <div class="topbar"><span id="phase" class="badge">Phase</span><span id="counter" class="counter">0 / 0</span></div>
+        <div id="stage" class="stage"><h2 id="title" class="headline"></h2><p id="body" class="feedback"></p><p id="sub" class="muted"></p></div>
+        <div class="row"><button class="btn-primary" id="nextBtn">Reveal next</button><button class="btn-secondary" id="restartBtn">Restart story</button></div>
+      </div>
+    </div>
+    <script>
+      const input=document.getElementById('input'),startBtn=document.getElementById('startBtn'),sampleBtn=document.getElementById('sampleBtn'),resetBtn=document.getElementById('resetBtn'),error=document.getElementById('error');
+      const player=document.getElementById('player'),phase=document.getElementById('phase'),counter=document.getElementById('counter'),title=document.getElementById('title'),body=document.getElementById('body'),sub=document.getElementById('sub');
+      const nextBtn=document.getElementById('nextBtn'),restartBtn=document.getElementById('restartBtn'),stage=document.getElementById('stage');
+      let story=[],index=0;
+      const cleanLines=(raw)=>raw.split('\n').map(l=>l.trim()).map(l=>l.replace(/^[-*•]\s*/,'').replace(/^\d+[.)]\s*/,'').trim()).filter(Boolean);
+      function buildStory(lines){
+        const n=lines.length,corpCount=Math.max(2,Math.ceil(n*.6)),corporate=lines.slice(0,corpCount),raw=lines.slice(corpCount),out=[];
+        corporate.forEach((line,i)=>out.push({mode:'corporate',phase:'Corporate review',title:`Leadership Signal ${String(i+1).padStart(2,'0')}`,body:line,sub:'Peer signal summary - calibrated, anonymized, professional.'}));
+        out.push({mode:'glitch',phase:'Integrity check',title:'Narrative consistency warning',body:'Anomaly detected in signal compression. Switching channel...',sub:'High-priority patterns may be underrepresented in formal framing.'});
+        out.push({mode:'glitch',phase:'Channel switch',title:'UNFILTERED FEED INIT',body:'Direct channel engaged. Raw team signal incoming.',sub:'Read with curiosity, not defensiveness.'});
+        raw.forEach((line,i)=>out.push({mode:'underground',phase:'Raw channel',title:`RAW FEEDBACK ${String(i+1).padStart(2,'0')}`,body:line,sub:'Uncompressed sentiment. No polish, just signal.'}));
+        out.push({mode:'corporate',phase:'Integration',title:'Action commitment',body:'Choose 1 behavior to start, 1 to stop, and 1 to sustain over the next 30 days.',sub:'Turn signal into visible leadership behavior.'});
+        return out;
+      }
+      function render(){const node=story[index];if(!node)return;stage.classList.remove('glitch');player.classList.remove('underground');if(node.mode==='glitch')stage.classList.add('glitch');if(node.mode==='underground')player.classList.add('underground');phase.textContent=node.phase;title.textContent=node.title;body.textContent=node.body;sub.textContent=node.sub;counter.textContent=`${index+1} / ${story.length}`;nextBtn.textContent=index===story.length-1?'Done':'Reveal next';}
+      function start(){const lines=cleanLines(input.value);if(lines.length<4||lines.length>20){error.textContent='Please provide between 4 and 20 feedback lines.';return;}error.textContent='';story=buildStory(lines);index=0;player.style.display='block';render();}
+      startBtn.addEventListener('click',start);
+      nextBtn.addEventListener('click',()=>{if(index<story.length-1){index+=1;render();}});
+      restartBtn.addEventListener('click',()=>{if(!story.length)return;index=0;render();});
+      resetBtn.addEventListener('click',()=>{input.value='';story=[];index=0;error.textContent='';player.style.display='none';});
+      sampleBtn.addEventListener('click',()=>{input.value=['Strong owner mindset and high execution speed.','Cross-functional alignment often comes too late.','People trust your judgment in ambiguous situations.','Can be abrupt when under time pressure.','Raises quality bar for the whole team.','Delegation remains inconsistent at critical moments.','Gives clarity during crisis.','Some teammates hesitate to challenge your first direction.','When you coach directly, people improve quickly.','Needs more proactive context sharing before decisions.'].join('\n');});
+    </script>
+  </body>
+</html>
